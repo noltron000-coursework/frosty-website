@@ -1,0 +1,153 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+  /*-------------------*/
+ /*  Type Formatting  */
+/*-------------------*/
+
+h1 { /* this is the large title */
+	color: transparent;
+	font-family: 'Roboto', sans-serif;
+	font-size: 6em;
+	text-align: center;
+	text-shadow:
+		      0em       0em 0.0625em black,
+		 0.0625em  0.0625em      1em white,
+		 0.0625em -0.0625em      1em white,
+		-0.0625em  0.0625em      1em white,
+		-0.0625em -0.0625em      1em white;
+}
+
+h2 { /* the h2 heading is a subheading */
+	color: transparent;
+	font-size: 2em;
+	text-align: center;
+	text-shadow:
+		      0em       0em 0.0625em black,
+		 0.0625em  0.0625em      1em white,
+		 0.0625em -0.0625em      1em white,
+		-0.0625em  0.0625em      1em white,
+		-0.0625em -0.0625em      1em white;
+
+
+}
+
+h3 { /* each section gets an h3 heading */
+	color: transparent;
+	font-size: 4em;
+	text-shadow:
+		      0em       0em 0.0625em black,
+		 0.0625em  0.0625em      1em white,
+		 0.0625em -0.0625em      1em white,
+		-0.0625em  0.0625em      1em white,
+		-0.0625em -0.0625em      1em white;
+
+}
+
+p { /* paragraphs appear everywhere */
+	color: transparent;
+	font-size: 1em;
+	text-shadow:
+		      0em       0em 0.0625em black,
+		 0.0625em  0.0625em      1em white,
+		 0.0625em -0.0625em      1em white,
+		-0.0625em  0.0625em      1em white,
+		-0.0625em -0.0625em      1em white;
+
+}
+
+  /*----------------*/
+ /*  Big Sections  */
+/*----------------*/
+
+
+section {
+	height: 80vh;
+
+	padding-left: 5vw;
+	padding-right: 5vw;
+	border-top: 0.25em;
+	border-bottom: 0.25em;
+	border-style: solid;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.overlay-text {
+}
+
+header, footer {
+	background-color: #90E900;
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+
+	height: 2em;
+
+	padding-left: 2vw;
+	padding-right: 2vw;
+	border-top: 0.25em;
+	border-bottom: 0.25em;
+	border-style: solid;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header {
+}
+
+footer {
+}
+
+.navbar { /* Top of the World */
+	width: 100%;
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-section { /* Sandwiched between */
+	width: 35%;
+	min-width: calc(666px * 35 / 100);
+
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+  /*-----------------*/
+ /*  Customization  */
+/*-----------------*/
+
+
+#view-0 { /* This is the title view with a hero image */
+	background-color: #588E00;
+	background-image: url(../jpg/altitude-bright-clouds-671658.jpg);
+	background-size: cover;
+}
+
+#view-1 {
+	background-color: #73BA00;
+	background-image: url(../jpg/adventure-cold-daylight-416821.jpg);
+	background-size: cover;
+}
+
+#view-2 {
+	background-color: #CABB00;
+	background-image: url(../jpg/black-and-white-cold-fog-235621.jpg);
+	background-size: cover;
+	text-align: right;
+}
+
+#view-3 {
+	background-color: #00855D;
+	background-image: url(../jpg/cold-colors-forest-688660.jpg);
+	background-size: cover;
+	text-align: center;
+}
