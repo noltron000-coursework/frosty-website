@@ -62,7 +62,6 @@ p { /* paragraphs appear everywhere */
  /*  Big Sections  */
 /*----------------*/
 
-
 section {
 	height: 80vh;
 
@@ -75,9 +74,6 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-.overlay-text {
 }
 
 header, footer {
@@ -95,12 +91,6 @@ header, footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-}
-
-header {
-}
-
-footer {
 }
 
 .navbar { /* Top of the World */
@@ -126,26 +116,26 @@ footer {
 /*-----------------*/
 
 
-#view-0 { /* This is the title view with a hero image */
+.view-0 { /* This is the title view with a hero image */
 	background-color: #588E00;
 	background-image: url(../jpg/altitude-bright-clouds-671658.jpg);
 	background-size: cover;
 }
 
-#view-1 {
+.view-1 {
 	background-color: #73BA00;
 	background-image: url(../jpg/adventure-cold-daylight-416821.jpg);
 	background-size: cover;
 }
 
-#view-2 {
+.view-2 {
 	background-color: #CABB00;
 	background-image: url(../jpg/black-and-white-cold-fog-235621.jpg);
 	background-size: cover;
 	text-align: right;
 }
 
-#view-3 {
+.view-3 {
 	background-color: #00855D;
 	background-image: url(../jpg/cold-colors-forest-688660.jpg);
 	background-size: cover;
