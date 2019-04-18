@@ -5,8 +5,8 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 width="1280.000000pt" height="1234.000000pt" viewBox="0 0 1280.000000 1234.000000"
 preserveAspectRatio="xMidYMid meet">
-	<g transform="translate(0.000000,1234.000000) scale(0.100000,-0.100000)"
-	fill="#000000" stroke="none">
+	<g transform="translate(0.000000,1234.000000) scale(0.100000,-0.100000)" 
+	fill='white' stroke="none">
 		<path d="M8209 12312 c-113 -73 -331 -373 -719 -997 -300 -481 -363 -628 -363
 		-850 0 -132 24 -239 108 -464 90 -243 113 -284 178 -318 66 -34 189 5 414 132
 		318 181 402 263 467 455 13 41 32 116 40 165 36 211 41 339 41 1080 0 699 -1

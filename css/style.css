@@ -76,7 +76,7 @@ header, footer {
 	background-color: #90E900;
 	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 
-	height: 2em;
+	height: 80px;
 
 	padding-left: 2vw;
 	padding-right: 2vw;
@@ -85,8 +85,8 @@ header, footer {
 	border-style: solid;
 
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	align-items: center;
 }
 
 .navbar { /* Top of the World */
@@ -95,6 +95,7 @@ header, footer {
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .nav-section { /* Sandwiched between */
@@ -104,8 +105,16 @@ header, footer {
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
+img.logo {
+	height: 60px;
+}
+
+img.logo * {
+	fill: white;
+}
 
   /*-----------------*/
  /*  Customization  */
