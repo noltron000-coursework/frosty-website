@@ -91,6 +91,8 @@ header, footer {
 
 .navbar { /* Top of the World */
 	width: 100%;
+	color: white;
+	font-weight: 900;
 
 	display: inline-flex;
 	flex-direction: row;
@@ -99,7 +101,7 @@ header, footer {
 }
 
 .nav-section { /* Sandwiched between */
-	width: 35%;
+	width: 25%;
 	min-width: calc(666px * 35 / 100);
 
 	display: inline-flex;
