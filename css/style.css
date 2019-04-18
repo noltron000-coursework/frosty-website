@@ -114,28 +114,28 @@ header, footer {
 
 .view-0 { /* This is the title view with a hero image */
 	background-color: #588E00;
-	background-image: url(../jpg/altitude-bright-clouds-671658.jpg);
+	background-image: url(../img/altitude-bright-clouds-671658.jpg);
 	background-size: cover;
 	text-align: center;
 }
 
 .view-1 {
 	background-color: #73BA00;
-	background-image: url(../jpg/adventure-cold-daylight-416821.jpg);
+	background-image: url(../img/adventure-cold-daylight-416821.jpg);
 	background-size: cover;
 	text-align: left;
 }
 
 .view-2 {
 	background-color: #CABB00;
-	background-image: url(../jpg/black-and-white-cold-fog-235621.jpg);
+	background-image: url(../img/black-and-white-cold-fog-235621.jpg);
 	background-size: cover;
 	text-align: right;
 }
 
 .view-3 {
 	background-color: #00855D;
-	background-image: url(../jpg/cold-colors-forest-688660.jpg);
+	background-image: url(../img/cold-colors-forest-688660.jpg);
 	background-size: cover;
 	text-align: center;
 }
